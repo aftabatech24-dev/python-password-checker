@@ -1,7 +1,7 @@
 password=input("Enter your Password")
 has_number=False
 has_upper=False
-for ch in password:
+for ch in password: #using for loop
     if ch.isdigit():
         has_number=True
     if ch.isupper():
